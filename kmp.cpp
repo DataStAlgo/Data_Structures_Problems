@@ -1,11 +1,16 @@
-//Code by:- Devansh Sharma
+/*Code by:- Devansh Sharma
 
-//Problem Statement:-
-//Given a text(t) and a string(s) you need to find the number of occurrences
-//of the string in the text
-//Solution(KMP(Knuth–Morris–Pratt) algorithm):-
-//The main idea is to use the prefix function array denoted by pi
-//in the kmp algorithm on the string s+'#'+t
+Problem Statement:-
+	Given a text(t) and a string(s) you need to find the number of occurrences
+	of the string in the text
+
+Solution(KMP(Knuth–Morris–Pratt) algorithm):-
+	The main idea is to use the prefix function array denoted by pi
+	in the kmp algorithm on the string s+'#'+t
+
+Time Complexity:-
+	O(n+m) where n is the size of the text and m is the size of the string
+*/
 
 #include<iostream>
 #include<vector>
