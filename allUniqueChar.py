@@ -34,3 +34,12 @@ def isUnique(arr):
 
 arr = input('Enter the string: ')
 print(isUnique(arr))
+
+# another approach
+def isunique_char(string):
+	if(len(set(string))==len(string)):
+		return True
+	else:
+		return False
+string=input('Enter string')
+print(isunique_char(string))
